@@ -13,6 +13,7 @@
 <body>
     
     <div class="cardtext"><span style="font-size: 11px; color: #5d5d5d; font-family: Tahoma">Выберите нейросеть для использования и добро пожаловать в будущее...</span></div>
+
     <div class="card">
         <div class="card-content">
             <div class="image">
@@ -24,10 +25,11 @@
             </div>
             <div>
                 <button class="btn-primary"><a href="inst1.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                <button class="btn-secondary" id="chat_gpt">▷ ВЫБРАТЬ</button>
             </div>
         </div>
     </div>
+
     <div class="card">
         <div class="card-content">
             <div class="image">
@@ -50,7 +52,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst2.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="midjourney">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -62,7 +64,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst3.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="stable">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -75,7 +77,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst4.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="portret">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -88,7 +90,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst5.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="gta">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -101,7 +103,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst6.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="editor">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -114,7 +116,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst7.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="anime">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -127,7 +129,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst8.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="realistic">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -156,6 +158,7 @@
             </div>
         </div>
     </div>
+
     <div class="card">
         <div class="card-content">
             <div class="image">
@@ -177,7 +180,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst10.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="infinity">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -190,7 +193,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst11.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="old">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -203,7 +206,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst12.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="anim_photo">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -215,7 +218,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst13.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="anim_query">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -243,7 +246,7 @@
             </div>
             <div>
                 <button class="btn-primary"><a href="inst14.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                <button class="btn-secondary" id="video_icon">▷ ВЫБРАТЬ</button>
             </div>
         </div>
     </div>
@@ -268,7 +271,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst15.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="math">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -280,7 +283,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst16.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="task_by_photo">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -292,7 +295,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst17.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="composition">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -304,7 +307,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst18.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="ref">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -344,7 +347,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst19.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="copir">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -356,7 +359,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst20.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="rewrite">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -368,7 +371,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst21.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="ads">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -380,7 +383,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst22.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="social">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -392,7 +395,7 @@
                 </div>
                 <div>
                     <button class="btn-primary"><a href="inst23.html" style="text-decoration: none; color: inherit;">ИНСТРУКЦИЯ</a></button>
-                    <button class="btn-secondary">▷ ВЫБРАТЬ</button>
+                    <button class="btn-secondary" id="idea">▷ ВЫБРАТЬ</button>
                 </div>
             </div>
         </div>
@@ -409,5 +412,6 @@
             }
         });
     </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
