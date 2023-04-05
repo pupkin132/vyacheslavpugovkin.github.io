@@ -101,7 +101,6 @@ b {
 
 .card {
     position: relative;
-    width: 440px;
     height: 238px;
     background: transparent;
     box-shadow:
@@ -130,7 +129,6 @@ b {
 
 .card2{
     position: relative;
-    width: 385px;
     height: 305px;
     background: transparent;
     box-shadow:
@@ -159,7 +157,6 @@ b {
 
 .card3{
     position: relative;
-    width: 385px;
     height: 180px;
     background: transparent;
     box-shadow:
