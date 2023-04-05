@@ -84,7 +84,7 @@ b {
 }
 
 .container {
-    width: 440px;
+    width: 385px;
     height: 700px;
     background-color: #fff;
     margin-bottom: 35px;
@@ -130,7 +130,7 @@ b {
 
 .card2{
     position: relative;
-    width: 440px;
+    width: 385px;
     height: 305px;
     background: transparent;
     box-shadow:
@@ -159,7 +159,7 @@ b {
 
 .card3{
     position: relative;
-    width: 440px;
+    width: 385px;
     height: 180px;
     background: transparent;
     box-shadow:
