@@ -3,7 +3,7 @@ let tg = window.Telegram.WebApp;
 tg.expand();
 
 tg.MainButton.setText("Подтвердить выбор"); 
-tg.MainButton.textColor = "#000000"; 
+tg.MainButton.textColor = "#FFFFFF"; 
 tg.MainButton.setParams({"color": "#2cab37"}); 
 
 let choose = '';
