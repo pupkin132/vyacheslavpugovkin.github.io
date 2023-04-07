@@ -101,7 +101,7 @@ b {
 
 .card {
     position: relative;
-    height: 238px;
+    height: 260px;
     background: transparent;
     box-shadow:
         inset 20px 20px 20px rgba(0, 0, 0, .05),
